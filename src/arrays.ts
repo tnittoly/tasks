@@ -1,4 +1,4 @@
-import { totalmem } from "os";
+/*import { totalmem } from "os";*/
 
 /**
  * Consume an array of numbers, and return a new array containing

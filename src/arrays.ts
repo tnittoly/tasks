@@ -6,6 +6,7 @@ import { totalmem } from "os";
  * an empty array. If there is one element, the resulting list should
  * the number twice.
  */
+/*hi*/
 export function bookEndList(numbers: number[]): number[] {
     const bookList = [...numbers];
     let final: number[] = [];

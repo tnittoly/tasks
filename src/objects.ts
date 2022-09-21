@@ -1,5 +1,3 @@
-import { ExecFileSyncOptionsWithBufferEncoding } from "child_process";
-import { ListFormat } from "typescript";
 import { Question, QuestionType } from "./interfaces/question";
 
 /**
@@ -10,12 +8,7 @@ import { Question, QuestionType } from "./interfaces/question";
 export function makeBlankQuestion(
     id: number,
     name: string,
-    type: QuestionType,
-    body: string,
-    expected: string,
-    options: ListFormat,
-    points: number,
-    published: boolean
+    type: QuestionType
 ): Question {
     return {
         id: id,

@@ -1,4 +1,3 @@
-import { Options } from "prettier";
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
 

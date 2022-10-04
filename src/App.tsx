@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
@@ -30,3 +29,4 @@ function App(): JSX.Element {
     );
 }
 export default App;
+/*Hello*/
